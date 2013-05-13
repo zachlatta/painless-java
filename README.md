@@ -42,3 +42,192 @@ Although you and I can easily determine what the above instructions mean, comput
 As you may imagine, writing instructions in machine language is a long and difficult task. Differents kinds of CPUs each have their own machine language, which only adds to the complexity. If I wrote a program in machine language for my CPU, another person's CPU might not be able to run it.
 
 To make creating programs easier, **programming languages** were created. Instead of using 1s and 0s, programming languages use words that people can easily read. A program can be written in a programming language and later translated into something the computer can interpret.
+
+
+Building Blocks
+---------------
+
+Almost all programming languages are made up of the same fundamental elements. These are key words, operators, punctuation, programmer-defined names, and syntax.
+
+
+### Key Words
+
+Key words are words that have a specific meaning to a programming language. Key words can only be used for their intended usage. They are also known as restricted words.
+
+The following are all of the key words in Java.
+
+<table>
+  <tbody>
+    <tr>
+      <td>abstract</td>
+      <td>assert</td>
+      <td>boolean</td>
+      <td>break</td>
+      <td>byte</td>
+      <td>case</td>
+      <td>catch</td>
+      <td>char</td>
+      <td>class</td>
+    </tr>
+    <tr>
+      <td>const</td>
+      <td>continue</td>
+      <td>default</td>
+      <td>do</td>
+      <td>double</td>
+      <td>else</td>
+      <td>enum</td>
+      <td>extends</td>
+      <td>false</td>
+    </tr>
+    <tr>
+      <td>final</td>
+      <td>finally</td>
+      <td>float</td>
+      <td>for</td>
+      <td>goto</td>
+      <td>if</td>
+      <td>implements</td>
+      <td>import</td>
+      <td>instanceof</td>
+    </tr>
+    <tr>
+      <td>int</td>
+      <td>interface</td>
+      <td>long</td>
+      <td>native</td>
+      <td>new</td>
+      <td>null</td>
+      <td>package</td>
+      <td>private</td>
+      <td>protected</td>
+    </tr>
+    <tr>
+      <td>public</td>
+      <td>return</td>
+      <td>short</td>
+      <td>static</td>
+      <td>strictfp</td>
+      <td>super</td>
+      <td>switch</td>
+      <td>synchronized</td>
+      <td>this</td>
+    </tr>
+    <tr>
+      <td>throw</td>
+      <td>throws</td>
+      <td>transient</td>
+      <td>true</td>
+      <td>try</td>
+      <td>void</td>
+      <td>volatile</td>
+      <td>while</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Operators
+
+Operators perform operations on items of data, known as operands. The following is an example of operators in use:
+
+    result = first + second;
+
+`=` and `+` are both operators. `result`, `first`, and `second` are all operands. The value of `first` is added to the value of `second` and stored in the variable `result`.
+
+The following is a list of all of the operators in Java from [Oracle's Java Tutorials](http://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html). The higher to the top the operator, the higher its precedence. Operators on the same line have equal precedence.
+
+<table>
+  <thead>
+    <th>Operator</th>
+    <th>Precedence</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>postfix</td>
+      <td>expr++ expr--</td>
+    </tr>
+    <tr>
+      <td>unary</td>
+      <td>++expr --expr +expr -expr ~ !</td>
+    </tr>
+    <tr>
+      <td>multiplicative</td>
+      <td>* / %</td>
+    </tr>
+    <tr>
+      <td>additive</td>
+      <td>+ -</td>
+    </tr>
+    <tr>
+      <td>shift</td>
+      <td><< >> >>></td>
+    </tr>
+    <tr>
+      <td>relational</td>
+      <td>< > <= >= instanceof</td>
+    </tr>
+    <tr>
+      <td>equality</td>
+      <td>== !=</td>
+    </tr>
+    <tr>
+      <td>bitwise AND</td>
+      <td>&</td>
+    </tr>
+    <tr>
+      <td>bitwise exclusive OR</td>
+      <td>^</td>
+    </tr>
+    <tr>
+      <td>bitwise inclusive OR</td>
+      <td>|</td>
+    </tr>
+    <tr>
+      <td>logical AND</td>
+      <td>&&</td>
+    </tr>
+    <tr>
+      <td>logical OR</td>
+      <td>||</td>
+    </tr>
+    <tr>
+      <td>ternary</td>
+      <td>? :</td>
+    </tr>
+    <tr>
+      <td>assignment</td>
+      <td>= += -= *= /= %= &= ^= |= <<= >>= >>>=</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Punctuation
+
+Punctuation in programming languages can be thought of similar to punctuation in English. In English we use an apostrophe to make something possessive. For example, the following sentence says that John possesses a dog who ran towards the sunset.
+
+    John's dog ran towards the sunset.
+
+Similary punctuation in Java has meaning. The semicolon denotes the end of a statement. The following example has two commands, each ending in a semicolon.
+
+    double salary = 30.5;
+    System.out.println("My salary is " + salary + ".");
+
+Since almost every line in Java is a statement, most lines end with a semicolon. If a statement doesn't end with a semicolon, the compiler will throw an error, often vague and ambigous.
+
+
+### Programmer-Defined Names
+
+Programmer-defined names are words used in programs that aren't keywords. The programmer can defined names to mean many different things, such as methods and variables.
+
+In the following we create two variables named `myVar` and `mySecondVar`, respectively. As we'll learn later, variables are named storage locations.
+
+    int myVar = 42;
+    double mySecondVar = 3.14;
+
+
+### Syntax
+
+Syntax consists of the rules that must be followed when writing a program. Syntax dictates where key words and operators can be used along with where punctuation must appear.
