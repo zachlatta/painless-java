@@ -231,3 +231,24 @@ In the following we create two variables named `myVar` and `mySecondVar`, respec
 ### Syntax
 
 Syntax consists of the rules that must be followed when writing a program. Syntax dictates where key words and operators can be used along with where punctuation must appear.
+
+
+Getting Started
+===============
+
+Now that we have the fundamentals of programming down, let's set up our environment and get started.
+
+The JDK
+-------
+
+The JDK, or Java development kit, is a complete Java runtime environment bundled with tools for developing, debugging, and monitoring Java applications. We'll need to download and install it on our computer.
+
+Go to [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and download the latest JDK for your platform. Run and click through the installer until you have it installed.
+
+
+Integrated Development Environments
+-----------------------------------
+
+Java is an integrated development development language, which means it was made to be programmed with IDEs. An **integrated development environment** is a suite of tools bundled into a single application used for programming. IDEs normally consist of a source code editor, build automation tools, and a debugger.
+
+The three most popular Java IDEs are IntelliJ, Eclipse, and Netbeans.
