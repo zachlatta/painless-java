@@ -249,6 +249,10 @@ Go to [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http:
 Integrated Development Environments
 -----------------------------------
 
-Java is an integrated development development language, which means it was made to be programmed with IDEs. An **integrated development environment** is a suite of tools bundled into a single application used for programming. IDEs normally consist of a source code editor, build automation tools, and a debugger.
+Java is an integrated development environment language, which means it was made to be programmed with IDEs. An **integrated development environment** is a suite of tools bundled into a single application used for programming. IDEs normally consist of a source code editor, build automation tools, and a debugger.
 
-The three most popular Java IDEs are IntelliJ, Eclipse, and Netbeans.
+The three most popular Java IDEs are IntelliJ, Eclipse, and Netbeans. We'll go over how to set up each of these in the following sections. If you already have an IDE set up you can skip this.
+
+## IntelliJ
+
+IntelliJ is a popular IDE developed by Jetbrains. Head over to [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) and download the latest version of either the ultimate or community edition. If you're just starting out, I recommend you start with the community edition.
