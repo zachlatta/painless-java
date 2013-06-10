@@ -5,6 +5,8 @@ FILES=title.txt \
 				01-the-boring-part/01-chapter1.md \
 				02-getting-our-hands-dirty/01-chapter2.md
 
+all: html epub pdf
+
 html:
 	$(PRE) $(NAME).html $(FILES)
 
