@@ -235,7 +235,52 @@ In the following we create two variables named `myVar` and `mySecondVar`, respec
 Syntax consists of the rules that must be followed when writing a program. Syntax dictates where key words and operators can be used along with where punctuation must appear.
 
 
-That's Over With
-================
+Setting Up
+==========
 
-Phew! That's (finally) over! Let's move onto the next section to start coding!
+The JDK
+-------
+
+The JDK, or Java development kit, is a complete Java runtime environment bundled with tools for developing, debugging, and monitoring Java applications. We'll need to download and install it on our computer.
+
+Go to [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and download the latest JDK for your platform. Run and click through the installer until you have it installed.
+
+
+Integrated Development Environments
+-----------------------------------
+
+Java is an integrated development environment language, which means it was made to be programmed with IDEs. An **integrated development environment** is a suite of tools bundled into a single application used for programming. IDEs normally consist of a source code editor, build automation tools, and a debugger.
+
+The three most popular Java IDEs are IntelliJ, Eclipse, and Netbeans. We'll go over how to set up IntelliJ on a Mac in the following section. Hopefully you'll be able to figure it out if you're on a different OS.
+
+## IntelliJ
+
+IntelliJ is a popular IDE developed by Jetbrains. Head over to [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) and download the latest version of either the ultimate or community edition. I recommend you start with the community edition.
+
+![IntelliJ Website Home](assets/1.png)
+
+![Community Edition Download Button](assets/2.png)
+
+![Download Complete](assets/3.png)
+
+![Drag 'er over](assets/4.png)
+
+Once you've dragged the application to your applications folder, open up Spotlight, search for IntelliJ, and open it.
+
+![Open IntelliJ through Spotlight](assets/5.png)
+
+Click through the "Complete Installation" screen until you see the following screen.
+
+![Main Screen](assets/6.png)
+
+
+### Configuring the SDK
+
+Go to `Configure` > `Project Defaults` > `Project Structure`. Under `Project SDK` click `New…` and then `JDK`. It should default to your JDK installation. If it doesn't, then browse to where you installed your JDK. Click `Choose` and then `OK`.
+
+
+### Changing the Theme
+
+IntelliJ now includes the beautiful Darcula theme. Let's use it! Click on `Configure` and then `Settings`. Click on the `Appearance` option under the `IDE Settings` divider and then click on the `Theme` spinner. Select `Darcula` and then hit `OK`. Let IntelliJ restart if it asks. It should now look like the following.
+
+![New Homescreen](assets/7.png)
