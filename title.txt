@@ -1,2 +1,2 @@
-% (Mostly) Painless Java
+% A (Mostly) Painless Introduction to Java
 % Zach Latta
