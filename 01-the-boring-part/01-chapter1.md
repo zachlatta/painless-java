@@ -37,13 +37,13 @@ Computers are designed to follow instructions. A **computer program** is a set o
 
 The set of instructions we just wrote is called an **algorithm**. An algorithm is a set of well defined instructions for performing a task or solving a problem. It's important to note that the tasks above are ordered. Step 1 is followed by step 2 and onward. The instructions will not work if they are not followed in order.
 
-Although you and I can easily determine what the above instructions mean, computers can't. Computers can only interpret a special language called **machine language**. Machine language consists of a sequence of binary (1s and 0s). A machine language instruction might look like the following:
+Although you and I can easily determine what the above instructions mean, computers can't. Computers can only understand a special language called **machine language**. Machine language consists of a sequence of binary (1s and 0s). A machine language instruction might look like the following:
 
     1100010101001010
 
 As you may imagine, writing instructions in machine language is a long and difficult task. Differents kinds of CPUs each have their own machine language, which only adds to the complexity. If I wrote a program in machine language for my CPU, another person's CPU might not be able to run it.
 
-To make creating programs easier, **programming languages** were created. Instead of using 1s and 0s, programming languages use words that people can easily read. A program can be written in a programming language and later translated into something the computer can interpret.
+To make creating programs easier, **programming languages** were created. Instead of using 1s and 0s, programming languages use words that people can easily read. A program can be written in a programming language and later translated into something the computer can understand.
 
 
 Building Blocks
