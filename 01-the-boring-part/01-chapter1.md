@@ -276,7 +276,7 @@ Click through the "Complete Installation" screen until you see the following scr
 
 ### Configuring the SDK
 
-Go to `Configure` > `Project Defaults` > `Project Structure`. Under `Project SDK` click `New…` and then `JDK`. It should default to your JDK installation. If it doesn't, then browse to where you installed your JDK. Click `Choose` and then `OK`.
+Go to `Configure > Project Defaults > Project Structure`. Under `Project SDK` click `New…` and then `JDK`. It should default to your JDK installation. If it doesn't, then browse to where you installed your JDK. Click `Choose` and then `OK`.
 
 
 ### Changing the Theme
