@@ -31,7 +31,7 @@ Change the code so it looks like the following:
 
 Let's work through this. `public static void main(String[] args)` declares the `main` function where the program will start running from. A function is a small block of code with a name. We'll talk about this more in a later chapter.
 
-`// Code goes here` is a comment. Comments are ignored by the computer when the code is executed. They serve as little reminders to the programmers who read the code. It's good practice to write comments for any code remotely complex because it'll make it easier for other programmers (and yourself) to understand your code in the future.
+`// Code goes here` is a comment. Comments are ignored by the computer when the code is executed. They serve as little reminders to the programmers who read the code.
 
 Let's try running the program. Right click anywhere in the editor and select `Run 'HelloWorld.main()'`.
 
